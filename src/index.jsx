@@ -19,11 +19,13 @@ root.render(
             </div>
             <div 
             className="card-holder"
-            style={{ backgroundColor: 'white', padding: '48px', display: 'flex', flexDirection: 'column', alignItems: 'center', borderRadius: '24px', maxWidth: '1440px', margin: '24px'}}
+            style={{ backgroundColor: 'white', padding: '0px', display: 'flex', flexDirection: 'column', alignItems: 'center', borderRadius: '24px', maxWidth: '1440px', margin: '24px'}}
             >
-                <h1>Hello World.</h1>
-                <ProductCard style={{scale: '.8'}}/>
+                {/* <h1>Hello World.</h1> */}
+                {/* <ProductCard style={{scale: '1'}}/> */}
+                <img src="coffee-website.jpg" style={{scale: '.8', borderRadius: '8px'}}/>
             </div>
         </div>
+        
     </div>
 )
