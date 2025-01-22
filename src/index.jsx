@@ -6,9 +6,13 @@ const root = createRoot(document.querySelector('#root'))
 
 root.render(
     <div className="main-container">
+        <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
         <div className="main-content">
             <div className="commentary-section">
                 <div className="left-side">
+                    
                     <div className="eyebrow">Prologue</div>
                     <div className="title">What is a Web Component?</div>
                 </div>
