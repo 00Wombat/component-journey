@@ -26,6 +26,8 @@ root.render(
                 <img src="coffee-website.jpg" style={{scale: '.8', borderRadius: '8px'}}/>
             </div>
         </div>
+        <div className="main-content">
+        </div>
         
     </div>
 )

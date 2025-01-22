@@ -9,8 +9,8 @@ body,
     left: 0;
     width: 100%;
     height: 100%;
-    background: #f1f1f1;
-    font-family: 'DM Sans', sans-serif;
+    background: #f6f6f6;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
     line-height: 150%;
     letter-spacing: -.25px;
@@ -20,7 +20,7 @@ body,
     overflow-x: hidden;
 }
 
-#root {
+html {
     overflow-y: hidden;
 }
 
@@ -193,6 +193,7 @@ body,
 .commentary-section .left-side .title {
     font-size: 3rem;
     line-height: 120%;
+    font-weight: 500;
 }
 
 .commentary-section .right-side {
