@@ -9,13 +9,13 @@ root.render(
         <div className="main-content">
             <div className="commentary-section">
                 <div className="left-side">
-                    <div className="eyebrow">Chapter 00</div>
-                    <div className="title">Why Does this Website Exist?</div>
+                    <div className="eyebrow">Prologue</div>
+                    <div className="title">What is a Web Component?</div>
                 </div>
-                <div className="right-side">
-                <div className="description">My name is Dallin. I’m a Design Engineer. I struggled with explaining what that means, so I built a site that shows the design engineering process.</div>
-                <div className="description">Let’s start at the end. Below is a wireframe of a product search page. Let’s not focus on the whole page, though. Let’s zero in on just one component.</div>
-                </div>
+                {/* <div className="right-side">
+                    <div className="description">My name is Dallin. I’m a Design Engineer. I struggled with explaining what that means, so I built a site that shows the design engineering process.</div>
+                    <div className="description">Let’s start at the end. Below is a wireframe of a product search page. Let’s not focus on the whole page, though. Let’s zero in on just one component.</div>
+                </div> */}
             </div>
             <div 
             className="card-holder"

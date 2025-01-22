@@ -10,10 +10,10 @@ body,
     width: 100%;
     height: 100%;
     background: #f6f6f6;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: "DM Sans", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
     line-height: 150%;
-    letter-spacing: -.25px;
+    /* letter-spacing: -.25px; */
     color: black;
     --primary-color: #234839;
     --secondary-text: #7C7C7C;
@@ -185,14 +185,20 @@ html {
     max-width: 400px;
 }
 
-.commentary-section .left-side .eyebrow {
-    font-weight: 200;
-    text-transform: uppercase;
+.commentary-section {
+    text-align: center;
 }
 
-.commentary-section .left-side .title {
+.commentary-section .eyebrow {
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: .75px;
+}
+
+.commentary-section .title {
     font-size: 3rem;
-    line-height: 120%;
+    line-height: 100%;
+    letter-spacing: -.75px;
     font-weight: 500;
 }
 
