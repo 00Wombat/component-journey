@@ -8,23 +8,20 @@ body,
 #root
 {
     position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    /* top: 0;
+    left: 0; */
     background: #f6f6f6;
     font-family: "DM Sans", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
     line-height: 150%;
-    /* letter-spacing: -.25px; */
     color: black;
     --primary-color: #234839;
     --secondary-text: #7C7C7C;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 html {
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
 }
 
 .main-container {
