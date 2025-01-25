@@ -2,6 +2,7 @@ import ProductCard from './productcard'
 import './style.css'
 import { createRoot } from 'react-dom/client'
 import { TextParallaxContentExample } from './TextParallaxContent'
+import Prologue from './Prologue'
 
 const root = createRoot(document.querySelector('#root'))
 
@@ -33,5 +34,6 @@ root.render(
     //     </div>
         
     // </div>
-    <TextParallaxContentExample/>
+    // <TextParallaxContentExample/>
+    <Prologue/>
 )

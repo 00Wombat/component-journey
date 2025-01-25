@@ -1,8 +1,8 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import { motion, useScroll, useTransform } from "motion/react";
 
 export const TextParallaxContentExample = () => {
-    return <div className="bg-white">
+    return <div className="bg-gray-100">
         <TextParallaxContent
           imgUrl={"https://images.unsplash.com/photo-1733723509159-c07a6d2141c8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"}
           subheading="Collaborate"
